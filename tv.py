@@ -12,4 +12,6 @@ class tv:
     def turn_off(self):
         self.tv_on = False
 #add a method for getting the channel
+    def get_channel(self):
+        return self.channel
 #add a method for getting the volume
