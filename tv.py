@@ -21,3 +21,7 @@ class tv:
 #add a method for getting the volume
     def get_volume(self):
         return self.volume
+#add a method for setting the volume to 1-7
+    def set_volume(self, volume):
+        if self.tv_on and 1 <= volume <= 7:
+            self.volume = volume
