@@ -19,3 +19,5 @@ class tv:
         if self.tv_on and 1 <= channel <= 120:
             self.channel = channel
 #add a method for getting the volume
+    def get_volume(self):
+        return self.volume
