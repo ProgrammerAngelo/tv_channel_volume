@@ -1,4 +1,4 @@
-class tv:
+class TV:
 #add a data for instance variables
     def __init__(self):
         #set the deffault settings
