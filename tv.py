@@ -6,6 +6,8 @@ class tv:
         self.volume = 1
         self.tv_on = False
 #add a method for power on
+    def turn_on(self):
+        self.tv_on = True
 #add a method for power off
 #add a method for getting the channel
 #add a method for getting the volume
